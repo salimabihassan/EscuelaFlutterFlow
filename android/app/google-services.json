@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "78330626720",
+    "project_id": "escuela-d3d43",
+    "storage_bucket": "escuela-d3d43.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78330626720:android:13a1a1e6b020677d517fc5",
+        "android_client_info": {
+          "package_name": "com.mycompany.escuela"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD28IAzMPORHKdgmxboi_hV9R64x5ZPYGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
