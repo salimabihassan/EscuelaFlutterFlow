@@ -1,0 +1,640 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Categ_Ambito",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_categ",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Ambito",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_categ",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_ambito",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "curso",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ci_prof",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "activo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "codcurso",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "primeroB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "segundoB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "terceroB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cuartoB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "QuintoB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "sextoB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "septimoB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "octavoB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "alumno",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "grado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "retirado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "seccion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "periodo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nom_alu",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Ambito",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_ambito",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "notas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ci_alu",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "semestre",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_curso",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "inf_perso",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ci_alu",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "codCurso",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "categ_Ambito",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_ambito",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "alumno",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ci_alu",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "retirado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nom_alu",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "alumno",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "retirado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nom_alu",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "alumno",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "grado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "retirado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nom_alu",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "primeroB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "segundoB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "terceroB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cuartoB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "QuintoB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "sextoB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "septimoB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "octavoB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "curso",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "activo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "codcurso",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "curso",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "codcurso",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ci_prof",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Asignatura",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "borrado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_asig",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "inf_perso",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rut_cole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ci_alu",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "codCurso",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cod_ambito",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
